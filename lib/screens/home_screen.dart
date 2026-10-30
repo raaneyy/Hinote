@@ -13,7 +13,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  Priority? _filter; // null = Semua
+  Priority? _filter; 
   String _query = '';
 
   @override
@@ -113,7 +113,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         border: Border.all(color: Colors.white, width: 2.5),
                         boxShadow: [
                           BoxShadow(
-                              color: Colors.black.withOpacity(.08),
+                              color: Colors.black.withValues(alpha: .08),
                               blurRadius: 6)
                         ],
                       ),

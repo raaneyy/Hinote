@@ -5,7 +5,6 @@ import 'archive_screen.dart';
 import 'home_screen.dart';
 import 'profile_screen.dart';
 
-/// Kerangka utama: Beranda | Arsip | Profil + tombol tambah
 class MainShell extends StatefulWidget {
   const MainShell({super.key});
 

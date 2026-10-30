@@ -1,8 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'note.dart';
 
-/// Penyimpanan catatan sederhana (in-memory).
-/// Ganti dengan SQLite/Hive nanti kalau mau data tetap tersimpan.
 class NotesStore extends ChangeNotifier {
   final List<Note> _notes = [
     Note(
@@ -94,5 +92,4 @@ class NotesStore extends ChangeNotifier {
   }
 }
 
-/// Instance global sederhana (cukup untuk tugas/prototipe)
 final notesStore = NotesStore();

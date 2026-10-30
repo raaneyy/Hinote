@@ -138,8 +138,8 @@ class _LoginScreenState extends State<LoginScreen> {
                   _gradientButton('Masuk', _goHome),
                   const SizedBox(height: 22),
 
-                  Row(
-                    children: const [
+                  const Row(
+                    children: [
                       Expanded(child: Divider(color: AppColors.border)),
                       Padding(
                         padding: EdgeInsets.symmetric(horizontal: 14),
@@ -229,7 +229,7 @@ class _LoginScreenState extends State<LoginScreen> {
           borderRadius: BorderRadius.circular(20),
           boxShadow: [
             BoxShadow(
-              color: AppColors.sage.withOpacity(.28),
+              color: AppColors.sage.withValues(alpha: .28),
               blurRadius: 14,
               offset: const Offset(0, 6),
             ),

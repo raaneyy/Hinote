@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-/// Gelombang hijau di bagian bawah layar (Splash & Login)
 class WaveBackground extends StatelessWidget {
   final double height;
   const WaveBackground({super.key, this.height = 260});

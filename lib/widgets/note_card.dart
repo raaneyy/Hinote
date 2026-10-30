@@ -3,7 +3,6 @@ import 'package:intl/intl.dart';
 import '../models/note.dart';
 import '../theme.dart';
 
-/// Warna chip kategori
 ({Color bg, Color fg}) categoryColors(String category) {
   switch (category) {
     case 'Kerja':
@@ -49,7 +48,7 @@ class NoteCard extends StatelessWidget {
               height: 44,
               alignment: Alignment.center,
               decoration: BoxDecoration(
-                color: c.bg.withOpacity(.6),
+                color: c.bg.withValues(alpha: .6),
                 borderRadius: BorderRadius.circular(12),
               ),
               child: Text(note.icon, style: const TextStyle(fontSize: 22)),

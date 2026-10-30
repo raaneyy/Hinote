@@ -18,8 +18,8 @@ class Note {
   final String id;
   String title;
   String body;
-  String category; // Kerja, Kuliah, Pribadi, ...
-  String icon; // emoji
+  String category; 
+  String icon; 
   Priority priority;
   bool important;
   bool completed;

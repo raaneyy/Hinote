@@ -23,4 +23,4 @@ flutter:
 
   # Aset gambar (logo Hiyote)
   assets:
-    - assets/images/
+    - assets/images/logo.png
